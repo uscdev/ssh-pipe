@@ -1,9 +1,9 @@
 # ssh-pipe
 SSH Pipe Container
 
-Create an ssh pipe to an AWS or Azure host:
+Create an ssh pipe to an AWS host:
 
-The container sets up an SSH pipe to your Amazon docker host.
+This container sets up an SSH pipe to your Amazon docker host.
 
 1. Mount the AWS secret file in the container path.
 2. Pass the location of the secret file in the SECRET_PATH environment variable.
